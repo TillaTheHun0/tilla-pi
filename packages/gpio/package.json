@@ -1,5 +1,5 @@
 {
-  "name": "@tilla-safe/switch",
+  "name": "@tilla-pi/gpio",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -24,6 +24,6 @@
     "jest-cli": "^24.8.0"
   },
   "dependencies": {
-    "@tilla-safe/utils": "^1.0.0"
+    "pigpio": "^1.2.2"
   }
 }

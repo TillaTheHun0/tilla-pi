@@ -1,8 +1,14 @@
 
-import * as Camera from './camera'
-import { Capture } from './capture'
+import { PiCamera } from './piCamera'
+import { Flip } from './Flip'
+import { Codec } from './Codec'
+import { Rotation } from './Rotation'
+import { SensorMode } from './SensorMode'
 
 export {
-  Camera,
-  Capture
+  PiCamera,
+  Flip,
+  Codec,
+  Rotation,
+  SensorMode
 }

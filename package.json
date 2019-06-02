@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "npm run clean && lerna run build",
+    "clean": "rimraf coverage && lerna run clean",
     "test": "standard"
   },
   "keywords": [],

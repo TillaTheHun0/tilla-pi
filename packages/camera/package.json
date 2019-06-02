@@ -1,5 +1,5 @@
 {
-  "name": "@tilla-safe/camera",
+  "name": "@tilla-pi/camera",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -24,7 +24,6 @@
     "jest-cli": "^24.8.0"
   },
   "dependencies": {
-    "@tilla-safe/utils": "^1.0.0",
     "chalk": "^2.4.2",
     "prettyjson": "^1.2.1"
   }
