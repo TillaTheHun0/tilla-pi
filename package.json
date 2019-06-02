@@ -1,0 +1,33 @@
+{
+  "name": "tilla-safe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [],
+  "author": "Tyler Hall <0tillathehun0@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "husky": "^2.3.0",
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "lerna": "^3.14.1",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
